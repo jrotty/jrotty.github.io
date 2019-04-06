@@ -12,6 +12,10 @@ Typecho 是由两个单词 type 和 echo 组成的，在发音的时候也发这
 **提供**
 
 此文档由[Jrotty](http://qqdie.com)提供，允许各种修改与传播。
-文档部分存在问题可提供修改意见致邮箱bssf@qq.com，知道我QQ的你可以直接发QQ消息。
 
-或者[点击这里进行留言](https://qqdie.com/typecho-doc.html)
+**纠错/修正文档**
+
+文档部分存在问题可提供修改意见致邮箱bssf@qq.com，知道我QQ的你可以直接发QQ消息。
+或者github提交修改：https://github.com/jrotty/jrotty.github.io
+
+再或者[点击这里进行留言](https://qqdie.com/typecho-doc.html)
