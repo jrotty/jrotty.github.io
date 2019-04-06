@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="typecho,theme,docs,文档,模板">
+  <meta name="description" content="Typecho Docs">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Typecho Docs</title>
+  <link rel="stylesheet" href="lib/vue.css">
+</head>
+<body>
+    <nav>
+    <a href="http://typecho.org/" target="_blank">typecho</a>
+    <a href="http://qqdie.com" target="_blank">Blog</a>
+  </nav>
+  <div id="app">Load...</div>
+</body>
+  <script>
+    window.$docsify = {
+      name: 'Typecho',
+      homepage: 'index.md',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      search: {
+          noData: {
+              '/': '没有结果 :('
+          },
+          paths: 'auto',
+          placeholder: {
+              '/': '搜索'
+          }
+      },
+    }
+  </script>
+  <script src="lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+  <script src="lib/search.min.js"></script>
+</html>
