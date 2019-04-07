@@ -401,7 +401,7 @@ array('ShowRecentPosts' => _t('显示最新文章'),
     $form->addInput($sidebarBlock->multiMode());
 ```
 
-是一些开关，这里哪ShowCategory举例，如果勾选他
+是一些开关，这里拿ShowCategory举例，如果勾选他
 ```php
 <?php if (!empty($this->options->sidebarBlock) && in_array('ShowCategory', $this->options->sidebarBlock)): ?>
 勾选了就会显示这里的文字
