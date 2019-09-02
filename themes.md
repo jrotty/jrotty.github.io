@@ -15,7 +15,7 @@
  */
 ```
 
-这是模板信息存放的地方，它将在后台都模板选择页显示。前两行是简短的介绍，每个“\*”表示一个段落。
+这是模板信息存放的地方，它将在后台的模板选择页显示。前两行是简短的介绍，每个“\*”表示一个段落。
 
 - **@package** 表示模板名
 - **@author**表示作者名
@@ -82,7 +82,7 @@ archive.php代码同index.php，区别就是index.php是显示首页的，而arc
 ```php
 <meta charset="<?php $this->options->charset(); ?>">
 ```
-调用默认的编码，现在最经常用的大都是utf-8吧。所以我通常是直接写成utf-8，省去php处理时间。
+调用默认的编码，现在最经常用都是utf-8吧。所以我通常是直接写成utf-8，省去php处理时间。
 
 #### 页面标题
 
@@ -101,7 +101,7 @@ archive.php代码同index.php，区别就是index.php是显示首页的，而arc
 ```php
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
 ```
-其中style.css是样式文件相对模板目录的路径和文件名。
+其中style.css是样式表文件相对模板目录的路径和文件名。
 ### 其它HTML头部信息
 ```php
 <?php $this->header(); ?>
@@ -123,7 +123,7 @@ archive.php代码同index.php，区别就是index.php是显示首页的，而arc
 `<?php $this->options->siteUrl(); ?>`是网站地址
 `<?php $this->options->title() ?>`是网站名字
 `<?php $this->options->description() ?>`是网站描述。
-logo部分的讲解将会再**functions.php**章节中详细讲解。
+logo部分的讲解将会在**functions.php**章节中详细讲解。
 
 ### 站内搜索
 
@@ -168,7 +168,7 @@ logo部分的讲解将会再**functions.php**章节中详细讲解。
 <li><a href="http://example.com/2008/12/31/sample-post-ten">文章10的标题</a></li>
 </ul>
 ```
-具体显示数量，可在typecho后台**设置->阅读**中设置。
+具体显示数量可在typecho后台**设置->阅读**中设置。
 
 ### 最新回复列表
 ```html
@@ -187,7 +187,7 @@ logo部分的讲解将会再**functions.php**章节中详细讲解。
     <!-- 省略n个重复 -->
 </ul>
 ```
-其中`<?php $comments->excerpt(35, '...'); ?>`，“35”代表要回复内容截取的字的个数，“…”代表省略的意思，你可以自行修改。具体显示数量，可在typecho后台**设置->评论**中设置。
+其中`<?php $comments->excerpt(35, '...'); ?>`，“35”代表要回复内容截取的字的个数，“…”代表省略的意思，你可以自行修改。具体显示数量可在typecho后台**设置->评论**中设置。
 
 ### 文章分类列表
 ```php
@@ -373,7 +373,7 @@ $logoUrl = new Typecho_Widget_Helper_Form_Element_Text('logoUrl', NULL, NULL, _t
 $form->addInput($logoUrl);
 ```
 
-这行代码就是再模板设置处添加一个logo设置，可以添加一个图片地址作为logo，添加好了通过如下代码即可输出这个图片
+这行代码就是在模板设置处添加一个logo设置，可以添加一个图片地址作为logo，添加好了通过如下代码即可输出这个图片
 
 ```html
 <!--判断logo已被设置-->
