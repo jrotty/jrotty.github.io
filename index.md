@@ -19,3 +19,7 @@ Typecho 是由两个单词 type 和 echo 组成的，在发音的时候也发这
 或者github提交修改：https://github.com/jrotty/jrotty.github.io
 
 再或者[点击这里进行留言](https://qqdie.com/typecho-doc.html)
+
+**最近维护时间**
+
+2020年4月17日
