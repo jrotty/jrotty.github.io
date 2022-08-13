@@ -11,7 +11,7 @@ Typecho 是由两个单词 type 和 echo 组成的，在发音的时候也发这
 
 **提供**
 
-此文档由[Jrotty](http://qqdie.com)提供，允许各种修改与传播。
+此文档由[Jrotty](http://blog.zezeshe.com)提供，允许各种修改与传播。
 
 **纠错/修正文档**
 
