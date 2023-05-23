@@ -1,8 +1,8 @@
 **Typecho**
 
-Typecho是一个简单轻巧的博客程序。基于 PHP 使用多种数据库（Mysql、PostgreSQL、SQLite）储存数据，在 GPL Version2 许可证下发行的开源程序，使用 SVN 做版本管理。
+**Typecho**是一个简单轻巧的博客程序。基于 `PHP` 使用多种数据库（`Mysql`、`PostgreSQL`、`SQLite`）储存数据，在 `GPL Version2` 许可证下发行的开源程序，使用 `SVN` 做版本管理。
 
-Typecho 是由两个单词 type 和 echo 组成的，在发音的时候也发这两个音 /taɪpˌ'ekoʊ/
+**Typecho** 是由两个单词 `type` 和 `echo` 组成的，在发音的时候也发这两个音 `/taɪpˌ'ekoʊ/``
 
 
 **文档说明**
@@ -20,4 +20,4 @@ Typecho 是由两个单词 type 和 echo 组成的，在发音的时候也发这
 
 **最近维护时间**
 
-2020年4月17日
+2023年5月23日
