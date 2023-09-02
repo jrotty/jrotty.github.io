@@ -32,14 +32,14 @@ public static function charactersNum($archive)
 |searchHandle|$archive Widget_Archive对象<br>$select Typecho_Db_Query对象|当访问搜索页面时被触发|
 |query|$archive Widget_Archive对象<br>$select Typecho_Db_Query对象|Widget_Archive所有的数据库查询动作最终将由一个query方法来执行，此接口在query方法内，多用于hack某些查询语句|
 |select|$archive Widget_Archive对象||
-|handleInit|$archive Widget_Archive对象<br>$select Typecho_Db_Query对象||
+|handleInit|$archive Widget_Archive对象<br>$select Typecho_Db_Query对象|handle初始化|
 |handle|type$archive Widget_Archive对象<br>$select Typecho_Db_Query对象||
 |pageNav|currentPage<br>$totalpageSize<br>$prev<br>$next<br>$splitPage<br>$splitWord||
 |headerOptions|$allows$archive Widget_Archive对象||
-|header|$header<br>$archive Widget_Archive对象||
-|footer|$archive Widget_Archive对象||
-|beforeRender|$archive Widget_Archive对象||
-|afterRender|$archive Widget_Archive对象||
+|header|$header<br>$archive Widget_Archive对象|主题head部分内容接口，一般用于引入css|
+|footer|$archive Widget_Archive对象|主题页脚部分内容接口，一般用于引入JavaScript|
+|beforeRender|$archive Widget_Archive对象|在渲染主题前|
+|afterRender|$archive Widget_Archive对象|在渲染主题后|
 |commentFeedItem|feedType<br>$comments||
 |feedItem|feedType<br>$archive Widget_Archive对象||
 
