@@ -16,9 +16,9 @@
 
 ### 公共头像地址替换
 
-**typecho**用的**GRAVATR**的公共头像地址，**GRAVATR**的服务器在美国，虽然它在全世界做镜像，但是在国内依旧很慢。然后发现有国内有很多人为其做反向代理，把头像缓存到本地，来提高速度，以前大家可能会使用插件来替换**typecho**的**GRAVATR**的默认地址，实际上不需要，我们用这个常量就可以了，比如我们替换成`https://gravatar.cat.net/avatar/`，用法如下
+**typecho**用的**GRAVATAR**的公共头像地址，**GRAVATAR**的服务器在美国，虽然它在全世界做镜像，但是在国内依旧很慢。然后发现有国内有很多人为其做反向代理，把头像缓存到本地，来提高速度，以前大家可能会使用插件来替换**typecho**的**GRAVATAR**的默认地址，实际上不需要，我们用这个常量就可以了，比如我们替换成`https://gravatar.cat.net/avatar/`，用法如下
 用法
-在`config.inc.php`最后面插入`define('__TYPECHO_GRAVATR_PREFIX__', 'https://gravatar.cat.net/avatar');`
+在`config.inc.php`最后面插入`define('__TYPECHO_GRAVATAR_PREFIX__', 'https://gravatar.cat.net/avatar');`
 这样一来**typecho**就会替换成`https://gravatar.cat.net/avatar/`渠道的头像地址。【有些模板可能不支持】
 
 ### 自定义上传附件目录
